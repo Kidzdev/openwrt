@@ -5,3 +5,7 @@ opkg update && wget --no-check-certificate "https://github.com/Kidzdev/openwrt/b
 # Corksrew
 opkg update && wget --no-check-certificate "https://github.com/Kidzdev/openwrt/blob/main/corkscrew_2.0-1_x86_64.ipk?raw=true" -O /root/install.ipk && cd /root && opkg install --force-depends install.ipk && rm -rf install.ipk
 # Badvpn
+opkg update && wget --no-check-certificate "https://github.com/Kidzdev/openwrt/blob/main/badvpn_1.999.130-1_x86_64.ipk?raw=true" -O /root/install.ipk && cd /root && opkg install --force-depends install.ipk && rm -rf install.ipk
+
+
+Terimakasih
